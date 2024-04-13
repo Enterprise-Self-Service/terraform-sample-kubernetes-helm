@@ -1,6 +1,6 @@
 # template-samples-aws-eks-cluster-helm
 
-Use this repository as an ESS Template to deploy a Helm chart with Nginx resource on a Kubernetes cluster, the first thing you need to do is create an ESS Target for the cluster you wish to deploy to. 
+Use this repository as an ESS Template to deploy any Helm chart on a Kubernetes cluster (as long as it doesn't require any values). The first thing you need to do is create an ESS Target for the cluster you wish to deploy to. 
 
 Create the Target by selecting Kubernetes and select AWS EKS, GCP GKE or Other (this covers Azure AKS) as credentials type.
 
