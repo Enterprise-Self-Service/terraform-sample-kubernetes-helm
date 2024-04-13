@@ -1,4 +1,4 @@
-# template-samples-aws-eks-cluster-helm
+# template-samples-kubernetes-helm
 
 Use this repository as an ESS Template to deploy any Helm chart on a Kubernetes cluster (as long as it doesn't require any values). The first thing you need to do is create an ESS Target for the cluster you wish to deploy to. 
 
