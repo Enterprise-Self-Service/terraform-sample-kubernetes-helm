@@ -1,7 +1,6 @@
 variable "chart" {
   type        = string
   description = "The name of the chart you wish to install, i.e. nginx, apache"
-  default     = "nginx"
 }
 
 variable "repository" {
@@ -13,5 +12,4 @@ variable "repository" {
 variable "chart_version" {
   type        = string
   description = "The chart version that you wish to deploy"
-  default     = "15.14.0"
 }
