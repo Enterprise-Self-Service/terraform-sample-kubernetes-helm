@@ -12,6 +12,6 @@ data "kubernetes_service" "this" {
   }
 }
 
-output "service_endpoint" {
-  value = data.kubernetes_service.this.status != null ? "http://${data.kubernetes_service.this.status.0.load_balancer.0.ingress.0.ip}" : null
+output "kubernates_service" {
+  value = data.kubernetes_service.this
 }
